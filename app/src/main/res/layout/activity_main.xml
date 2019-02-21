@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.aao.movietrailerapp.ui.activity.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorRecycler"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tv_no_internet_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ring"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tv_no_internet_error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/colorAccent"
+            android:text="@string/no_internet_message"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+        <Button
+            android:id="@+id/tv_no_internet_error_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/refresh"
+            android:background="@color/colorAccent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

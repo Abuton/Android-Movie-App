@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieTrailerApp</string>
+    <string name="something_went_wrong">Something went wrong…Please try again later!</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="sort_movies">Sort</string>
+    <string name="sort_popularity">Popularity</string>
+    <string name="sort_top_rated">Top rated</string>
+    <string name="movie_overview_label">About the movie</string>
+    <string name="trailer">Media</string>
+    <string name="sort_by_favorites">Favorites</string>
+    <string name="read_user_reviews">Read user reviews</string>
+    <string name="movie_removed_from_favorites">Movie removed from favorites</string>
+    <string name="movie_added_to_favorites">Movie added to favorites</string>
+    <string name="review_activity_title">User Reviews</string>
+    <string name="no_internet_message">You must have an internet connection to use this app! Please try again when you have internet access.</string>
+    <string name="refresh">Refresh</string>
+    <string name="movie_trailer_icon">Movie trailer icon</string>
+</resources>
